@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Presidentum" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Presidentum" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-DSFML_STATIC" />
+					<Add option="-DGLEW_STATIC" />
+					<Add option="-std=c11" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-DSFML_STATIC" />
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+					<Add library="libsfml-main-d.a" />
+					<Add library="libsfml-graphics-s-d.a" />
+					<Add library="libsfml-window-s-d.a" />
+					<Add library="libsfml-audio-s-d.a" />
+					<Add library="libsfml-network-s-d.a" />
+					<Add library="libsfml-system-s-d.a" />
+					<Add library="libwinmm.a" />
+					<Add library="libfreetype.a" />
+					<Add library="libgdi32.a" />
+					<Add library="libopengl32.a" />
+					<Add library="libglew32d.a" />
+					<Add library="libjpeg.a" />
+					<Add library="libopenal32.a" />
+					<Add library="libvorbisenc.a" />
+					<Add library="libvorbisfile.a" />
+					<Add library="libvorbis.a" />
+					<Add library="libogg.a" />
+					<Add library="libFLAC.a" />
+					<Add library="libws2_32.a" />
+					<Add directory="lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Presidentum" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/Release" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add option="-DSFML_STATIC" />
+					<Add option="-DGLEW_STATIC" />
+					<Add option="-std=c11" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-DSFML_STATIC" />
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+					<Add library="libsfml-main.a" />
+					<Add library="libsfml-graphics-s.a" />
+					<Add library="libsfml-window-s.a" />
+					<Add library="libsfml-network-s.a" />
+					<Add library="libsfml-audio-s.a" />
+					<Add library="libsfml-system-s.a" />
+					<Add library="libwinmm.a" />
+					<Add library="libfreetype.a" />
+					<Add library="libgdi32.a" />
+					<Add library="libopengl32.a" />
+					<Add library="libglew32.a" />
+					<Add library="libjpeg.a" />
+					<Add library="libopenal32.a" />
+					<Add library="libvorbisenc.a" />
+					<Add library="libvorbisfile.a" />
+					<Add library="libvorbis.a" />
+					<Add library="libogg.a" />
+					<Add library="libFLAC.a" />
+					<Add library="libws2_32.a" />
+					<Add directory="lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src/BossFinal.cpp" />
+		<Unit filename="src/BossFinal.h" />
+		<Unit filename="src/Camara.cpp" />
+		<Unit filename="src/Camara.h" />
+		<Unit filename="src/ECargando.cpp" />
+		<Unit filename="src/ECargando.h" />
+		<Unit filename="src/EInGame.cpp" />
+		<Unit filename="src/EInGame.h" />
+		<Unit filename="src/EMenu.cpp" />
+		<Unit filename="src/EMenu.h" />
+		<Unit filename="src/Enemigo.cpp" />
+		<Unit filename="src/Enemigo.h" />
+		<Unit filename="src/Escena.cpp" />
+		<Unit filename="src/Escena.h" />
+		<Unit filename="src/Juego.cpp" />
+		<Unit filename="src/Juego.h" />
+		<Unit filename="src/Jugador.cpp" />
+		<Unit filename="src/Jugador.h" />
+		<Unit filename="src/Mapa.cpp" />
+		<Unit filename="src/Mapa.h" />
+		<Unit filename="src/Mundo.cpp" />
+		<Unit filename="src/Mundo.h" />
+		<Unit filename="src/NPC.cpp" />
+		<Unit filename="src/NPC.h" />
+		<Unit filename="src/Plataforma.cpp" />
+		<Unit filename="src/Plataforma.h" />
+		<Unit filename="src/Proyectil.cpp" />
+		<Unit filename="src/Proyectil.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="tinyxml/tinystr.cpp" />
+		<Unit filename="tinyxml/tinystr.h" />
+		<Unit filename="tinyxml/tinyxml.cpp" />
+		<Unit filename="tinyxml/tinyxml.h" />
+		<Unit filename="tinyxml/tinyxmlerror.cpp" />
+		<Unit filename="tinyxml/tinyxmlparser.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
